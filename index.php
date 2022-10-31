@@ -1,8 +1,8 @@
 <?php
 
-require_once 'classes/fakePersonalDataGenerator.php';
+require_once 'classes/fake.php';
 
-$jonas = new PersonalData ;
+$jonas = new fake ;
 
 echo('<br>');
 echo('Cpr');
